@@ -13,7 +13,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // ------------------------------------------------------------------------------------------------------------
+// ------------            // ------------------------------------------------------------------------------------------------------------
             // |  `    |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
             // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BKSPC |
             // |  TAB  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
@@ -25,7 +25,7 @@
 &kp GRAVE   &kp Q     &kp W     &kp E      &kp R      &kp T                       &kp Y     &kp U      &kp I     &kp O      &kp P   &kp LBKT
   &kp TAB   &kp A     &kp S     &kp D      &kp F      &kp G                       &kp H     &kp J      &kp K     &kp L   &kp SEMI    &kp SQT
 &kp LSHFT   &kp Z     &kp X     &kp C      &kp V      &kp B  &kp C_MUTE  &none    &kp N     &kp M  &kp COMMA  &kp FSLH  &kp MINUS  &kp EQUAL
-                   &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE       &mo 1  &mo 2  &kp RET  &kp CAPS   &kp RALT  &kp RGUI
+                   &kp LGUI  &kp LALT  &kp LCTRL  &kp SPACE       &mo 1  &mo 2  &kp RET  &kp RCTRL   &kp RALT  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp PG_UP PG_DN>;
@@ -65,9 +65,7 @@
     &trans      &kp LALT     &kp LCTRL     &kp LSHFT        &trans      &kp CLCK                  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
     &trans    &kp K_UNDO     &kp K_CUT    &kp K_COPY   &kp K_PASTE        &trans  &trans  &trans     &trans    &trans    &trans     &trans   &trans    &trans
                                 &trans        &trans        &trans        &trans  &trans  &trans     &trans    &trans    &trans     &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
+RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
