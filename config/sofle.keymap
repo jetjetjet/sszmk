@@ -40,9 +40,9 @@
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
 &trans    &kp f1    &kp F2    &kp F3         &kp F4         &kp F5                    &kp F6        &kp F7      &kp F8          &kp F9       &kp F10   &kp DEL
-&kp GRAVE &kp N1    &kp N2    &trans         &trans         &kp N5                    &kp LBRC      &kp RBRC    &kp KP_EQUAL    &kp KP_PLUS  &kp F11    &kp F12
-&trans    &kp trans &kp trans &kp trans      &kp trans      &kp trans                 &kp LBKT      &kp RBKT    &kp KP_MULTIPLY &kp trans    &kp trans  &kp PIPE
-&trans    &kp trans &kp trans &kp trans      &kp trans      &kp trans &trans   &trans &kp KP_MINUS  &kp KP_PLUS &kp DOT         &kp trans    &kp trans  &trans
+&trans    &trans    &trans    &trans         &trans         &trans                    &kp LBRC      &kp RBRC    &kp KP_EQUAL    &kp KP_PLUS  &kp F11    &kp F12
+&trans    &trans    &trans    &trans         &trans         &trans                 &kp LBKT      &kp RBKT    &kp KP_MULTIPLY &kp trans    &kp trans  &kp PIPE
+&trans    &trans    &trans    &trans         &trans         &trans    &trans   &trans &kp KP_MINUS  &kp KP_PLUS &kp DOT         &kp trans    &kp trans  &trans
                     &trans    &trans         &trans         &trans    &trans   &trans &trans        &trans      &trans          &trans
             >;
 
