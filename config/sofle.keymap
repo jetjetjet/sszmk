@@ -10,8 +10,6 @@
 
  / {
     behaviors {
-        compatible = "zmk,behaviors";
-
         ssfull: ssfull {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
